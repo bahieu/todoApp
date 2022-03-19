@@ -11,7 +11,8 @@ function App() {
     inputRef.current.focus();
   };
   return (
-    <div>
+    <div style={{textAlign:'center'}}>
+      <h1>TODO APP</h1>
       <input
         ref={inputRef}
         value={todoInput}
